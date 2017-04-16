@@ -4,24 +4,22 @@
  <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>iOS Development</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
  </head>
  <body>
-
-  <h1>iOS Development</h1>
-  <p><b>Уроки создание приложений на платформе iOS</b></p>
-
-<span>
-  <p>
-    <a href="main.html">Главная</a>
-    <a href="lessons.html">Уроки</a>
-    <a href="contacts.html">Контакты</a>
-  </p>
-</span>
+    <div id="background"> 
+         <div id="right_menu"></div>  
+         <div id="header">
+             <h1>iOS Development</h1>     
+             <p><b>Создание програм на платформе iOS</b></p>
+         </div>
      
-<hr><br>
-
+        <div id="menu">
+        <span><p><a href="main.html">Главная</a><a href="lessons.html">Уроки</a><a href="contacts.html">Контакты</a></p</span><hr>
+        </div>
+            
+<div id="chooseLesson">
 <p>Выберите урок:</p>
-     
 <select>
   <option>Урок 1 - Установка необходимого оборудования</option>
   <option>Урок 2 - Создание простого проекта, навигация в проекте</option>
@@ -31,20 +29,38 @@
   <option>Урок 6 - Push Notifications</option>
   <option>Урок 7 - Web-Sockets</option>
 </select><br><br>
-     
+<button>Перейти к уроку</button>      
+</div>
+            
+<div id="interview">
 <form action="handler.php">
    <p><b>На каком языке для вас предпочтительны уроки?</b></p>
    <p><input type="checkbox" id="check1"><label for="check1">Objective-C</label><Br>
    <input type="checkbox" id="check2"><label for="check2">Swift</label><Br>
    <input type="checkbox" id="check3"><label for="check3">Оба интересны</label><Br>
    <input type="checkbox" id="check4"><label for="check4">Мне все равно</label></p>
-  </form> 
-       
-     
-<hr><img src = "images/design-ui.png" width="300" height ="200">
-<hr><br><img src = "images/design-ui.png" width="300" height ="200">
-<hr><br><img src = "images/design-ui.png" width="300" height ="200">
-     
-     
+</form>             
+            
+</div>  
+    <div id="content">
+       <hr><img src = "images/design-ui.png" width="300" height ="200">
+        <div id="lesson1">
+        <p>Lorem ipsum arcu — auctor vivamus quam enim, leo nam amet orci curabitur ut nulla cursus enim ligula eget in. A adipiscing mattis urna arcu ut cursus odio nec — congue nulla, leo tempus sodales leo eget.</p>
+        <p><b><a href="">Перейти к уроку</a></b></p>
+        </div>
+        
+        <hr><img src = "images/design-ui.png" width="300" height ="200">
+        <div id="lesson1">
+        <p>Lorem ipsum arcu — auctor vivamus quam enim, leo nam amet orci curabitur ut nulla cursus enim ligula eget in. A adipiscing mattis urna arcu ut cursus odio nec — congue nulla, leo tempus sodales leo eget.</p>
+        <p><b><a href="">Перейти к уроку</a></b></p>
+        </div>
+        
+        <hr><img src = "images/design-ui.png" width="300" height ="200">
+        <div id="lesson1">
+        <p>Lorem ipsum arcu — auctor vivamus quam enim, leo nam amet orci curabitur ut nulla cursus enim ligula eget in. A adipiscing mattis urna arcu ut cursus odio nec — congue nulla, leo tempus sodales leo eget.</p>
+        <p><b><a href="">Перейти к уроку</a></b></p>
+        </div><hr>
+   </div>
+ </div>  
  </body>
 </html>

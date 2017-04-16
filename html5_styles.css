@@ -75,3 +75,58 @@ background {
     border-bottom-color: red;
     border: 2px solid darkturquoise;
 }
+
+
+#content {
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+#lesson1 {
+    float: right;
+    margin-left: 320px;
+    margin-top: -200px;
+    margin-right: 20px;
+}
+
+#chooseLesson {
+    margin-left: 20px;
+}
+
+#interview {
+    float: right;
+    background-color: floralwhite;
+    color: black;
+    border: 1px;
+    margin-top: -100px;
+    margin-right: 20px;
+    padding: 5px
+}
+
+
+#contactImage {
+    background-image: url(images/ios-dev1.png);
+    background-repeat:no-repeat;
+    background-size: contain;
+    width:70%;
+    height: 200px;
+    margin-left: 20px;
+}
+
+#profile {
+    background-image: url(images/me.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 20%;
+    height: 200px;
+    display:inline-block;
+    float: right;
+    margin-right: 20px;
+    margin-top: -200px;
+}
+
+#contactForm {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}

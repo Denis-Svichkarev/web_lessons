@@ -1,0 +1,62 @@
+body {
+    background-color: darkturquoise;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 0px;
+    height: 100%;
+}
+
+
+#background {
+    background-color: white; 
+    padding-bottom: 50%;
+}
+
+#header {
+ width:inherit;
+ height:130px;
+ padding-top: 20px;
+ text-align: center;
+ background-color: darkblue 
+}
+
+#header h1 {
+   color: white;  
+}
+
+#header p {
+  color: white;  
+}
+
+#right_menu {
+    float: right;
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+    overflow: hidden;
+    background-image: url(images/ios-developer-300x300.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+#menu {
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+#menu a {
+    text-decoration-color: red;
+    text-decoration: none;
+    padding: 20px;
+}
+
+#main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#footer {
+    height: inherit;
+    margin-bottom: 20px;
+}

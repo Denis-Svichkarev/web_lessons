@@ -6,10 +6,9 @@ body {
     height: 100%;
 }
 
-
 #background {
     background-color: white; 
-    padding-bottom: 50%;
+    height: inherit;
 }
 
 #header {
@@ -69,11 +68,6 @@ body {
     margin-right: 20px;
 }
 
-#footer {
-    height: inherit;
-    margin-bottom: 20px;
-}
-
 #content {
     margin-top: 80px;
     margin-left: 20px;
@@ -131,4 +125,9 @@ body {
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
+}
+
+#footer {
+  height: 130px;
+  background-color: darkblue;
 }

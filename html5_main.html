@@ -5,6 +5,7 @@
       <meta charset="utf-8">
        <title>iOS Development</title>
        <link rel="stylesheet" type="text/css" href="html5_styles.css">
+       <script src="scripts/login.js"></script>
    </head>
 	
    <body>
@@ -18,11 +19,17 @@
     
      <div id="menu">
         <span><p><a href="html5_main.html">Главная</a><a href="html5_lessons.html">Уроки</a><a href="html5_contacts.html">Контакты</a></p</span><hr>
-        </div>
-        <br><br>
+     </div>
+         
+    <form class="login" method="post" onSubmit="return auth(this)">
+        <input name="username" type="text"/> Логин<br>
+        <input name="password" type="password" /> Пароль<br><br>
+        <input class ="login_button" name="send" value="Войти" type="submit" />
+    </form>
+    <br><br><br><br><br>
     
     <div id = "main_image"></div>
-    
+         
     <section>
       <article class="main_content">
          Lorem ipsum arcu — auctor vivamus quam enim, leo nam amet orci curabitur ut nulla cursus enim ligula eget in. A adipiscing mattis urna arcu ut cursus odio nec — congue nulla, leo tempus sodales leo eget. Sagittis at cursus rutrum auctor ipsum gravida mauris, in massa leo nec amet sed odio non cursus gravida, arcu magna sodales, leo ipsum commodo, proin. Quam, rutrum — justo morbi rutrum arcu magna mattis tempus nulla maecenas. Elementum eros, porttitor donec, justo diam sagittis urna, curabitur elementum enim gravida eu cursus amet vivamus quam proin ipsum nam mattis nibh.

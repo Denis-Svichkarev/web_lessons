@@ -1,0 +1,17 @@
+<!-- jQuery -->
+<script type="text/javascript" src="../libs/jquery/jquery.js"></script>
+
+<!-- SmartMenus jQuery plugin -->
+<script type="text/javascript" src="../jquery.smartmenus.js"></script>
+
+<!-- SmartMenus jQuery init -->
+<script type="text/javascript">
+	$(function() {
+		$('#main-menu').smartmenus({
+			mainMenuSubOffsetX: 1,
+			mainMenuSubOffsetY: -8,
+			subMenusSubOffsetX: 1,
+			subMenusSubOffsetY: -8
+		});
+	});
+</script>

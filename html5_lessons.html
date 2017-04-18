@@ -5,6 +5,24 @@
       <meta charset="utf-8">
        <title>iOS Development</title>
        <link rel="stylesheet" type="text/css" href="html5_styles.css">
+       
+       <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+       <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+       <script type="text/javascript" src="../libs/jquery/jquery.js"></script>
+       <script type="text/javascript" src="../jquery.smartmenus.js"></script>
+       <script type="text/javascript">
+       $(function() {
+		$('#main-menu').smartmenus({
+			subMenusSubOffsetX: 1,
+			subMenusSubOffsetY: -8
+		});
+	   });
+       </script>
+
+<link href="../css/sm-core-css.css" rel="stylesheet" type="text/css" />
+<link href="../css/sm-blue/sm-blue.css" rel="stylesheet" type="text/css" />
+       
    </head>
 	
    <body>
@@ -16,13 +34,29 @@
        <p><b>Создание мобильных приложений на платформе iOS</b></p>
      </header>
     
-     <div id="menu">
-        <span><p><a href="html5_main.html">Главная</a><a href="html5_lessons.html">Уроки</a><a href="html5_contacts.html">Контакты</a></p</span><hr>
-        </div>
-        <br><br>
+ <nav id="main-nav" role="navigation">
+  <ul id="main-menu" class="sm sm-blue">
+    <li><a href="html5_main.html">Главная</a></li>
+    <li><a href="html5_lessons.html">Уроки</a>
+      <ul>
+        <li><a href="">1 урок</a></li>
+        <li><a href="">2 урок</a></li>
+        <li><a href="">3 урок</a></li>
+        <li><a href="">4 урок</a></li>
+      </ul>
+    </li>
+    <li><a href="html5_contacts.html">Контакты</a></li>
+    <li><a href="">Поддержка</a>
+      <ul>
+        <li><a href="">Почта</a></li>
+        <li><a href="">Телефон</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
  
 
-         <section id="chooseLesson">
+<section id="chooseLesson">
 <p>Выберите урок:</p>
 <select>
   <option>Урок 1 - Установка необходимого оборудования</option>

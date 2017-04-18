@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Login Form with Email Password Link</title>
+	<title>iOS Development</title>
 	<link rel="stylesheet" media="screen" href="screen.css">
+    <link rel="stylesheet" type="text/css" href="html5_styles.css">
 	<script src="../../lib/jquery.js"></script>
 	<script src="../../dist/jquery.validate.js"></script>
 	<script>
@@ -30,36 +31,32 @@
 </head>
 <body>
 <div id="page">
-	<div id="header">
-		<h1>Login</h1>
-	</div>
+    <header> 
+       <h1>iOS Development</h1>     
+       <p><b>Создание мобильных приложений на платформе iOS</b></p>
+     </header>
 	<div id="content">
 		<p id="status"></p>
 		<form action="" method="get" id="login">
 			<fieldset>
-				<legend>User details</legend>
+				<legend>Авторизация</legend>
 				<ul>
 					<li>
 						<label for="email">
-							<span class="required">Email address</span>
+							<span class="required">Email</span>
 						</label>
 						<input id="email" name="email" class="text required email" type="text">
-						<label for="email" class="error">This must be a valid email address</label>
 					</li>
 					<li>
 						<label for="password">
-							<span class="required">Password</span>
+							<span class="required">Пароль</span>
 						</label>
-						<input name="password" type="password" class="text required" id="password" minlength="4" maxlength="20">
-					</li>
-					<li>
-						<label class="centered info"><a id="forgotpassword" href="#">Email my password...</a>
-						</label>
+						<input name="password" type="password" class="text required" id="password" minlength="3" maxlength="10">
 					</li>
 				</ul>
 			</fieldset>
 			<fieldset class="submit">
-				<input type="submit" class="button" value="Login...">
+				<input type="submit" class="button" value="Войти">
 			</fieldset>
 			<div class="clear"></div>
 		</form>

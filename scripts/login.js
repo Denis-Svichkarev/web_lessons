@@ -8,7 +8,7 @@ function auth(form) {
         correctUserName = false;
     }
     
-    if (form.password.value == "" || /[^a-zA-Z0-9]{3,}/ .test(form.password.value)) {
+    if (form.password.value == "" || form.password.value.length < 3 || form.password.value.length > 10) {
          if (!correctUserName)
             reason += "\n\n";
         reason += "Неверный пароль (Длина пароля не должна быть меньше 3 символов и длиннее 10.)";

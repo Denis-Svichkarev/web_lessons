@@ -10,20 +10,20 @@
        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 
-       <script type="text/javascript" src="../libs/jquery/jquery.js"></script>
-       <script type="text/javascript" src="../jquery.smartmenus.js"></script>
+       <script type="text/javascript" src="libs/jquery/jquery.js"></script>
+       <script type="text/javascript" src="jquery.smartmenus.js"></script>
        <script type="text/javascript">
        $(function() {
-		$('#main-menu').smartmenus({
-			subMenusSubOffsetX: 1,
-			subMenusSubOffsetY: -8
-		});
-	   });
+        $('#main-menu').smartmenus({
+          subMenusSubOffsetX: 1,
+			    subMenusSubOffsetY: -8
+		    });
+      });
 </script>
 
-<link href="../css/sm-core-css.css" rel="stylesheet" type="text/css" />
-<link href="../css/sm-blue/sm-blue.css" rel="stylesheet" type="text/css" />
-       
+<link href="css/sm-core-css.css" rel="stylesheet" type="text/css" />
+<link href="http://localhost/css/sm-blue/sm-blue.css" rel="stylesheet" type="text/css" />
+       /Volumes/Macintosh_HD/Library/WebServer/Documents/
 </head>
 	
    <body>
@@ -37,7 +37,7 @@
     
  <nav id="main-nav" role="navigation">
   <ul id="main-menu" class="sm sm-blue">
-    <li><a href="html5_main.html">Главная</a></li>
+    <li><a href="index.html">Главная</a></li>
     <li><a href="html5_lessons.html">Уроки</a></li>
     <li><a href="html5_contacts.html">Контакты</a></li>
     <li><a href="">Поддержка</a>
@@ -49,6 +49,9 @@
    <li><a href="login.html">Авторизация (JQuery plugin)</a></li>
   </ul>
 </nav>
+    
+<input value="Голосовать!" onclick="ajaxGet()" type="button" />
+<div id="vote_status">Здесь будет ответ сервера</div>
     
     
     <form class="login" method="post" onSubmit="return auth(this)">
@@ -76,7 +79,7 @@
     <br>
          
       <footer>
-         <p><a href="main.html">HTML4</a> <a href="html5_main.html">HTML5</a></p>
+         <p><a href="main.html">HTML4</a> <a href="index.html">HTML5</a></p>
       </footer>
    </body>   
 </html>

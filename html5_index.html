@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <meta charset="utf-8">
+       <title>iOS Development</title>
+       <link rel="stylesheet" type="text/css" href="html5_styles.css">
+       
+       <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+       <script type="text/javascript" src="libs/jquery/jquery.js"></script>
+       <script type="text/javascript" src="jquery.smartmenus.js"></script>
+       <script type="text/javascript">
+       $(function() {
+        $('#main-menu').smartmenus({
+          subMenusSubOffsetX: 1,
+			    subMenusSubOffsetY: -8
+		    });
+      });
+</script>
+
+<script src="scripts/login.js"></script>
+
+<link href="css/sm-core-css.css" rel="stylesheet" type="text/css" />
+<link href="http://localhost/css/sm-blue/sm-blue.css" rel="stylesheet" type="text/css" />
+
+</head>
+	
+   <body>
+    
+     <div id="right_menu"></div> 
+       
+      <header></div>  
+       <h1>iOS Development</h1>     
+       <p><b>Создание мобильных приложений на платформе iOS</b></p>
+     </header>
+    
+ <nav id="main-nav" role="navigation">
+  <ul id="main-menu" class="sm sm-blue">
+    <li><a href="html5_index.html">Главная</a></li>
+    <li><a href="html5_lessons.html">Уроки</a></li>
+    <li><a href="html5_contacts.html">Контакты</a></li>
+   <li><a href="login.html">Авторизация (JQuery plugin)</a></li>
+  </ul>
+</nav>
+    
+    <form class="login" method="post" onSubmit="return auth(this)">
+        <input name="username" type="text"/> Логин<br>
+        <input name="password" type="password" /> Пароль<br><br>
+        <input class ="login_button" name="send" value="Войти" type="submit" />
+    </form>
+    <br><br><br><br><br>
+    
+    <div id = "main_image"></div>
+         
+    <section>
+      <article class="main_content">
+         Lorem ipsum arcu — auctor vivamus quam enim, leo nam amet orci curabitur ut nulla cursus enim ligula eget in. A adipiscing mattis urna arcu ut cursus odio nec — congue nulla, leo tempus sodales leo eget. Sagittis at cursus rutrum auctor ipsum gravida mauris, in massa leo nec amet sed odio non cursus gravida, arcu magna sodales, leo ipsum commodo, proin. Quam, rutrum — justo morbi rutrum arcu magna mattis tempus nulla maecenas. Elementum eros, porttitor donec, justo diam sagittis urna, curabitur elementum enim gravida eu cursus amet vivamus quam proin ipsum nam mattis nibh.
+        </article>
+        
+         <article class="main_content">
+         Lorem ipsum arcu — auctor vivamus quam enim, leo nam amet orci curabitur ut nulla cursus enim ligula eget in. A adipiscing mattis urna arcu ut cursus odio nec — congue nulla, leo tempus sodales leo eget. Sagittis at cursus rutrum auctor ipsum gravida mauris, in massa leo nec amet sed odio non cursus gravida, arcu magna sodales, leo ipsum commodo, proin. Quam, rutrum — justo morbi rutrum arcu magna mattis tempus nulla maecenas. Elementum eros, porttitor donec, justo diam sagittis urna, curabitur elementum enim gravida eu cursus amet vivamus quam proin ipsum nam mattis nibh.
+        </article>
+        
+       <article class="main_content">
+         Lorem ipsum arcu — auctor vivamus quam enim, leo nam amet orci curabitur ut nulla cursus enim ligula eget in. A adipiscing mattis urna arcu ut cursus odio nec — congue nulla, leo tempus sodales leo eget. Sagittis at cursus rutrum auctor ipsum gravida mauris, in massa leo nec amet sed odio non cursus gravida, arcu magna sodales, leo ipsum commodo, proin. Quam, rutrum — justo morbi rutrum arcu magna mattis tempus nulla maecenas. Elementum eros, porttitor donec, justo diam sagittis urna, curabitur elementum enim gravida eu cursus amet vivamus quam proin ipsum nam mattis nibh.
+        </article>
+    </section>
+    <br>
+         
+      <footer>
+         <p><a href="index.html">HTML4</a> <a href="html5_index.html">HTML5</a></p>
+      </footer>
+   </body>   
+</html>

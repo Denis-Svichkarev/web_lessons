@@ -113,8 +113,8 @@ body {
     background-image: url(images/me.jpg);
     background-repeat:no-repeat;
     background-size: cover;
-    width: 20%;
-    height: 30%;
+    width: 300px;
+    height: 300px;
     display:inline-block;
     float: right;
     margin-right: 20px;
@@ -130,4 +130,12 @@ body {
 #footer {
   height: 130px;
   background-color: darkblue;
+}
+
+#registration {
+    background-color: floralwhite;
+    margin-right: 20px;
+    text-align: center;
+    float: right;
+    width: 200px;
 }
